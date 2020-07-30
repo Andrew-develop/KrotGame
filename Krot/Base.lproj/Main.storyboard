@@ -45,75 +45,9 @@
                             <view contentMode="scaleToFill" verticalCompressionResistancePriority="900" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTY-5T-mOJ">
                                 <rect key="frame" x="0.0" y="98" width="414" height="764"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hw-zQ-sah">
-                                        <rect key="frame" x="275" y="29" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccC-Ds-8BT"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-Vn-ZZ7">
-                                        <rect key="frame" x="39" y="681" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ktd-9Y-fiS"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="3" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBn-H2-yOl">
-                                        <rect key="frame" x="275" y="631" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8v-vD-ThY"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="5" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HE-Ic-tkd">
-                                        <rect key="frame" x="129" y="489" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Otv-KX-0wN"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="6" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bh-I3-s8P">
-                                        <rect key="frame" x="39" y="280" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vem-Gl-lZN"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="7" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRX-Ik-eEb">
-                                        <rect key="frame" x="162" y="151" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4D-aN-lPX"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="8" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFQ-x1-QA8">
-                                        <rect key="frame" x="39" y="29" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BhM-Y9-ZEM"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="4" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-VQ-O5r">
-                                        <rect key="frame" x="275" y="332" width="90" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126"/>
-                                        <connections>
-                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nw9-GW-jkB"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9o-Ps-0Id">
-                                <rect key="frame" x="107" y="353" width="200" height="200"/>
+                                <rect key="frame" x="157" y="403" width="100" height="100"/>
                                 <state key="normal" image="icons8-play-в-круге-100"/>
                                 <connections>
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dVU-4I-NDt"/>
@@ -129,16 +63,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="cYh-cc-uLE"/>
                     <connections>
-                        <outlet property="b1" destination="KFQ-x1-QA8" id="FrG-JL-aIn"/>
-                        <outlet property="b2" destination="8hw-zQ-sah" id="9MB-kG-BIl"/>
-                        <outlet property="b3" destination="HRX-Ik-eEb" id="5Eb-Hv-fir"/>
-                        <outlet property="b4" destination="4bh-I3-s8P" id="RLH-vJ-jVz"/>
-                        <outlet property="b5" destination="3HE-Ic-tkd" id="dYU-OO-tnq"/>
-                        <outlet property="b6" destination="Izd-Vn-ZZ7" id="atD-HP-g0i"/>
-                        <outlet property="b7" destination="DBn-H2-yOl" id="qv6-VJ-nf9"/>
-                        <outlet property="b8" destination="Fe9-VQ-O5r" id="A1u-Go-21U"/>
                         <outlet property="lives" destination="nqk-9B-Vvl" id="2yR-rg-dxZ"/>
                         <outlet property="score" destination="k2O-up-CxB" id="wvD-SJ-r36"/>
+                        <outlet property="start" destination="H9o-Ps-0Id" id="54G-K8-JZj"/>
                         <outlet property="timerLabel" destination="8uD-bC-1Wg" id="B1m-xL-OoS"/>
                     </connections>
                 </viewController>
@@ -154,27 +81,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Menu" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Id-zB-thk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="Menu" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Id-zB-thk">
                                 <rect key="frame" x="0.0" y="44" width="414" height="346"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRh-j4-2BY">
-                                <rect key="frame" x="157" y="398" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRh-j4-2BY">
+                                <rect key="frame" x="157" y="403" width="100" height="100"/>
                                 <state key="normal" image="icons8-перезапуск-100"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="8kY-nU-AT4"/>
+                                    <action selector="playAgainButton:" destination="w11-3v-3Oo" eventType="touchUpInside" id="c7Y-i0-LPF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74649098759999999" green="1" blue="0.87488133909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="chR-Lx-2rt" firstAttribute="trailing" secondItem="3Id-zB-thk" secondAttribute="trailing" id="OdZ-A1-JMS"/>
-                            <constraint firstItem="chR-Lx-2rt" firstAttribute="bottom" secondItem="3Id-zB-thk" secondAttribute="bottom" constant="472" id="YHe-jN-DmI"/>
-                            <constraint firstItem="3Id-zB-thk" firstAttribute="leading" secondItem="chR-Lx-2rt" secondAttribute="leading" id="fjj-8Q-9vq"/>
-                            <constraint firstItem="3Id-zB-thk" firstAttribute="top" secondItem="chR-Lx-2rt" secondAttribute="top" id="nBc-ed-V1K"/>
+                            <constraint firstItem="hRh-j4-2BY" firstAttribute="centerY" secondItem="chR-Lx-2rt" secondAttribute="centerY" id="ONR-7x-RZY"/>
+                            <constraint firstItem="hRh-j4-2BY" firstAttribute="centerX" secondItem="chR-Lx-2rt" secondAttribute="centerX" id="hF1-NN-cO6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="chR-Lx-2rt"/>
                     </view>
@@ -190,6 +115,5 @@
     <resources>
         <image name="icons8-play-в-круге-100" width="100" height="100"/>
         <image name="icons8-перезапуск-100" width="100" height="100"/>
-        <image name="kisspng-european-mole-drawing-samsung-5b17a1149591b7.6074375515282752206126" width="699" height="501"/>
     </resources>
 </document>

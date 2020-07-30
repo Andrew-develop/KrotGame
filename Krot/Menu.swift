@@ -17,4 +17,9 @@ class Menu: UIViewController {
         super.viewDidLoad()
         label.text = text
     }
+    
+    @IBAction func playAgainButton(_ sender: UIButton) {
+        self.dismiss(animated: false, completion: nil)
+    }
+    
 }
