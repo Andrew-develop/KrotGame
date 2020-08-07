@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Menu: UIViewController {
+class MenuViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     var text = ""

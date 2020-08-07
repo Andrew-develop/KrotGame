@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                 button.isHidden = true
             }
             if seconds == 0 && counterLives > 0 {
-                let dvc = storyboard?.instantiateViewController(withIdentifier: "Menu") as! Menu
+                let dvc = storyboard?.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
                 dvc.text = """
                 You win
                 Score: \(counterScore)
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
                 zeroing()
             }
             if counterLives == 0 {
-                let dvc = storyboard?.instantiateViewController(withIdentifier: "Menu") as! Menu
+                let dvc = storyboard?.instantiateViewController(withIdentifier: "Menu") as! MenuViewController
                 dvc.text = """
                 You lose
                 Score: \(counterScore)

@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
         </scene>
-        <!--Menu-->
+        <!--Menu View Controller-->
         <scene sceneID="eT2-Dk-crT">
             <objects>
-                <viewController storyboardIdentifier="Menu" modalPresentationStyle="fullScreen" id="w11-3v-3Oo" customClass="Menu" customModule="Krot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Menu" modalPresentationStyle="fullScreen" id="w11-3v-3Oo" customClass="MenuViewController" customModule="Krot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5rW-80-Bcx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

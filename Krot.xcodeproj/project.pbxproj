@@ -13,7 +13,7 @@
 		876642AD24C99942007A184D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876642AB24C99942007A184D /* Main.storyboard */; };
 		876642AF24C99943007A184D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876642AE24C99943007A184D /* Assets.xcassets */; };
 		876642B224C99943007A184D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876642B024C99943007A184D /* LaunchScreen.storyboard */; };
-		87CE709D24CAAD03008337A5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE709C24CAAD03008337A5 /* Menu.swift */; };
+		87CE709D24CAAD03008337A5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE709C24CAAD03008337A5 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		876642AE24C99943007A184D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876642B124C99943007A184D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		876642B324C99943007A184D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87CE709C24CAAD03008337A5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		87CE709C24CAAD03008337A5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				876642A524C99942007A184D /* AppDelegate.swift */,
 				876642A724C99942007A184D /* SceneDelegate.swift */,
 				876642A924C99942007A184D /* ViewController.swift */,
-				87CE709C24CAAD03008337A5 /* Menu.swift */,
+				87CE709C24CAAD03008337A5 /* MenuViewController.swift */,
 				876642AB24C99942007A184D /* Main.storyboard */,
 				876642AE24C99943007A184D /* Assets.xcassets */,
 				876642B024C99943007A184D /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				876642AA24C99942007A184D /* ViewController.swift in Sources */,
-				87CE709D24CAAD03008337A5 /* Menu.swift in Sources */,
+				87CE709D24CAAD03008337A5 /* MenuViewController.swift in Sources */,
 				876642A624C99942007A184D /* AppDelegate.swift in Sources */,
 				876642A824C99942007A184D /* SceneDelegate.swift in Sources */,
 			);
